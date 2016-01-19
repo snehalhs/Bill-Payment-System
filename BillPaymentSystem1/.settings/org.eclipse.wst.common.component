@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BillPaymentSystem1">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="ojdbc14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc14/ojdbc14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="junit-4.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/junit-4.5/junit-4.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl/jstl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="junitee.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/junitee/junitee">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-1.2.14/log4j-1.2.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="standard.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/standard/standard">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc14_g.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc14_g/ojdbc14_g">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="BillPaymentSystem1"/>
+        <property name="java-output-path" value="/BillPaymentSystem1/build/classes"/>
+    </wb-module>
+</project-modules>
